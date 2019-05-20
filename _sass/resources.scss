@@ -1,0 +1,87 @@
+$exun-blue: #2977f5;
+$light-exun-blue: rgb(245, 248, 255);
+$font-stack: 'Avenir', 'Trebuchet MS', 'Ubuntu', system-ui;
+$sans-serif-font-stack: 'IBM Plex Sans', 'Avenir', 'Trebuchet MS', sans-serif;
+$serif-font-stack: 'IBM Plex Serif', 'Merriweather', serif;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  &.light-bg {
+    background: $light-exun-blue;
+  }
+}
+
+.flex {
+  display: flex;
+  &.center {
+    justify-content: center;
+    align-items: center;
+  }
+  &.column {
+    flex-direction: column;
+  }
+}
+
+.serif {
+  font-family: $serif-font-stack;
+  * {
+    font-family: $serif-font-stack;
+  }
+}
+
+.sans-serif {
+  font-family: $sans-serif-font-stack;
+  * {
+    font-family: $sans-serif-font-stack;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+  font-family: $sans-serif-font-stack;
+  font-weight: 700;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: $serif-font-stack;
+  max-width: 640px;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+a {
+  color: $exun-blue;
+  text-decoration: none;
+  transition: color 200ms ease;
+  &:hover {
+    color: inherit;
+  }
+}
