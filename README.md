@@ -8,7 +8,7 @@ Pages are rendered from the `_posts` directory and are written in [markdown](htt
 ---
 title: Your title
 date: 20 May 2019  # Date when the page was last updated
-permalink: /newpage  # What url you want the page to be shown at (/newpage will show the page at exun.co/resources/newpage)
+permalink: /newpage  # What url you want the page to be shown at (/newpage will show the page at exunclan.github.io/resources/newpage)
 layout: post
 ---
 ```

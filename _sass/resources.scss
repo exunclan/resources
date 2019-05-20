@@ -135,7 +135,13 @@ footer {
   color: #444;
   flex-direction: column;
 
-  .links a {
-    margin: 0 20px;
+  .links {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    a {
+      margin: 0 20px;
+    }
   }
 }
