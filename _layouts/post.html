@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="flex center wrapper">
+  <div class="content" style="max-width: 700px; width: 100%; padding: 50px;">
+    <a href="{{ "/" | relative_url }}" style="width: 100%;" class="flex center"><img src="{{ "/assets/img/exun-logo.png" | relative_url }}" alt="Exun Clan" style="height: 10vh; width: auto;"></a>
+    <div class="header" style="margin: 30px 0;">
+      <h1 style="text-align: center;">{{ page.title }}</h1>
+      <div class="date">Last Updated: {{ page.date || date_to_long_string }}</div>
+    </div>
+    {{ content }}
+    {% include footer.html %}
+  </div>
+</div>
