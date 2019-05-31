@@ -75,10 +75,13 @@ h2 {
   margin-top: 40px;
 }
 
-p {
+p, i, u, b, strong {
   font-size: 1.2rem;
   line-height: 1.8rem;
   font-family: $serif-font-stack;
+}
+
+p {
   max-width: 640px;
   padding: 10px 0;
   width: 100%;
