@@ -9,8 +9,6 @@ Linguistics problems come in many shapes and sizes. If you are new to linguistic
 
 1. [PLO Senior 2014, Problem 6 (Encoding Trees)](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxwYW5pbmlsaW5ndWlzdGljc29seW1waWFkfGd4OjVkNDViYjNkMjBjYjYwMTQ)
 2. [PLO Senior 2015, Problem 3 (Mnemonic Major System)](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxwYW5pbmlsaW5ndWlzdGljc29seW1waWFkfGd4OjY1MjYwOTc2MWVjOGVkMw)
-3. [PLO Senior 2017, Problem 2 (Circles and Dots)](https://cdn.iiit.ac.in/cdn/ltrc.iiit.ac.in/nlpmt/plo/Documents/QBSPLO2017.pdf)
-4. [PLO Senior 2018, Problem 2 (Word Embeddings)](https://cdn.iiit.ac.in/cdn/ltrc.iiit.ac.in/nlpmt/plo/Documents/QBSPLO2018.pdf)
 
 We also recommend reading about and exploring other fields of linguistics explored in the past papers of PLO, including phonology, morphology, semantics and number systems. While problems can come in the Turing Test paper from these fields, they would be designed so that people without knowledge of terminology can solve them as well, and points will be given to everyone who solves the questions, irrespective of whether they use precise linguistic terminology or not. However, as this is often an intuition-based challenge, having a firmer grasp of fundamental linguistics concepts is often helpful in guiding some of your guesses and provides a better logic to understanding why something works the way it does.
 
